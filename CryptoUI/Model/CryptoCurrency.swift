@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct CryptoCurrency : Identifiable,Decodable {
+    var id = UUID()
+    var currency : String
+    var price : String
+}

@@ -29,6 +29,23 @@
 		FF12F53C2E907D27003B378A /* CryptoUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FF12F5532E90800C003B378A /* Exceptions for "CryptoUIUITests" folder in "CryptoUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CryptoUITests.swift,
+			);
+			target = FF12F5312E907D27003B378A /* CryptoUITests */;
+		};
+		FF12F5542E90800C003B378A /* Exceptions for "CryptoUIUITests" folder in "CryptoUIUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CryptoUITests.swift,
+			);
+			target = FF12F53B2E907D27003B378A /* CryptoUIUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FF12F5272E907D25003B378A /* CryptoUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -42,6 +59,10 @@
 		};
 		FF12F53F2E907D27003B378A /* CryptoUIUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FF12F5532E90800C003B378A /* Exceptions for "CryptoUIUITests" folder in "CryptoUITests" target */,
+				FF12F5542E90800C003B378A /* Exceptions for "CryptoUIUITests" folder in "CryptoUIUITests" target */,
+			);
 			path = CryptoUIUITests;
 			sourceTree = "<group>";
 		};
